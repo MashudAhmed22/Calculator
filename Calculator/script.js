@@ -13,7 +13,6 @@ Array.from(buttons).forEach((button) => {
     }
     else if (e.target.innerHTML == "AC") {
       string = "";
-      document.querySelector('input').value = string;
       document.querySelector('input').value = "0";
     }
     else if (e.target.innerHTML == "CE") {
